@@ -43,6 +43,9 @@ app.use("/schedulesInTotal", require("./routes/scheduleIntotalRoutes"));
 //seats
 app.use("/seats", require("./routes/seatRoutes"));
 
+//tickets
+app.use("/tickets", require("./routes/ticketRoutes"));
+
 //upload image
 app.use("/upload-images", require("./routes/uploadImagesRoutes"));
 
